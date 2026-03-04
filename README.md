@@ -146,6 +146,6 @@ This project is open source and available under the MIT License.
 
 ## 👨‍💻 Author
 
-**Aditya Domle**
+**Dhruval Dalwadi**
 
 Feel free to customize this portfolio for your own use!
