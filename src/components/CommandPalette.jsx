@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, FileText, Music, Sun, Moon } from 'lucide-react';
 
-const CommandPalette = ({ isOpen, onClose, theme, toggleTheme }) => {
+const CommandPalette = ({ isOpen, onClose }) => {
   const [search, setSearch] = useState('');
   const [selectedIndex, setSelectedIndex] = useState(0);
   const navigate = useNavigate();
@@ -19,18 +19,12 @@ const CommandPalette = ({ isOpen, onClose, theme, toggleTheme }) => {
     { name: 'Stats', path: '/stats', icon: <FileText size={16} /> },
   ];
 
-  const themeOptions = [
-    { name: 'Light Theme', action: () => toggleTheme('light'), icon: <Sun size={16} /> },
-    { name: 'Dark Theme', action: () => toggleTheme('dark'), icon: <Moon size={16} /> },
-  ];
-
-  const filteredSections = sections.filter((section) =>
-    section.name.toLowerCase().includes(search.toLowerCase())
+  const filteredSections = sections.filter((s) => 
+    s.name.toLowerCase().includes(search.toLowerCase())
   );
 
   const allItems = [
     ...filteredSections.map((s) => ({ ...s, type: 'section' })),
-    ...themeOptions.map((t) => ({ ...t, type: 'theme' })),
   ];
 
   useEffect(() => {
@@ -52,9 +46,6 @@ const CommandPalette = ({ isOpen, onClose, theme, toggleTheme }) => {
         const selected = allItems[selectedIndex];
         if (selected.type === 'section') {
           navigate(selected.path);
-          onClose();
-        } else if (selected.type === 'theme') {
-          selected.action();
           onClose();
         }
       } else if (e.key === 'Escape') {
@@ -128,32 +119,7 @@ const CommandPalette = ({ isOpen, onClose, theme, toggleTheme }) => {
               </div>
             )}
 
-            {/* Theme Section */}
-            {search === '' && (
-              <div className="p-2 border-t border-dark-border">
-                <div className="px-3 py-2 text-xs text-gray-500 font-medium">Theme</div>
-                {themeOptions.map((option, index) => {
-                  const itemIndex = allItems.findIndex((item) => item.name === option.name);
-                  return (
-                    <button
-                      key={option.name}
-                      onClick={() => {
-                        option.action();
-                        onClose();
-                      }}
-                      className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-lg text-left transition-colors ${
-                        selectedIndex === itemIndex
-                          ? 'bg-dark-border text-white'
-                          : 'text-gray-400 hover:bg-dark-border hover:text-white'
-                      }`}
-                    >
-                      <span className="text-gray-500">{option.icon}</span>
-                      <span className="text-sm">{option.name}</span>
-                    </button>
-                  );
-                })}
-              </div>
-            )}
+
 
             {/* No results */}
             {filteredSections.length === 0 && search !== '' && (

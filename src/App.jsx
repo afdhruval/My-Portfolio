@@ -13,21 +13,6 @@ import Contact from './pages/Contact';
 import Stats from './pages/Stats';
 
 function App() {
-  const [theme, setTheme] = useState(() => {
-    return localStorage.getItem('theme') || 'dark';
-  });
-
-  useEffect(() => {
-    // Apply theme to body element
-    if (theme === 'light') {
-      document.body.classList.add('light-mode');
-      document.body.classList.remove('dark-mode');
-    } else {
-      document.body.classList.add('dark-mode');
-      document.body.classList.remove('light-mode');
-    }
-    localStorage.setItem('theme', theme);
-  }, [theme]);
 
   useEffect(() => {
     // Initialize Lenis smooth scroll
@@ -63,19 +48,11 @@ function App() {
     };
   }, []);
 
-  const toggleTheme = (newTheme) => {
-    if (newTheme) {
-      setTheme(newTheme);
-    } else {
-      setTheme((prev) => (prev === 'dark' ? 'light' : 'dark'));
-    }
-  };
-
   return (
     <Router>
-      <div className={`min-h-screen transition-colors duration-300 ${theme === 'light' ? 'bg-white text-gray-900' : 'bg-dark text-gray-light'}`}>
-        <Navbar theme={theme} toggleTheme={toggleTheme} />
-        <Sidebar theme={theme} />
+      <div className="min-h-screen transition-colors duration-300 bg-dark text-gray-light">
+        <Navbar />
+        <Sidebar />
         <main className="lg:ml-64 pt-16">
           <Routes>
             <Route path="/" element={<Introduction />} />

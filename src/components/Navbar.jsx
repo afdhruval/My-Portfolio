@@ -4,7 +4,7 @@ import { Search, ExternalLink, Github, Music, Sun, Moon } from 'lucide-react';
 import CommandPalette from './CommandPalette';
 import MusicPlayer from './MusicPlayer';
 
-const Navbar = ({ theme, toggleTheme }) => {
+const Navbar = () => {
   const [isCommandOpen, setIsCommandOpen] = useState(false);
   const [isMusicOpen, setIsMusicOpen] = useState(false);
   const [currentTime, setCurrentTime] = useState('');
@@ -86,7 +86,7 @@ const Navbar = ({ theme, toggleTheme }) => {
               <div className="flex items-center gap-2">
                 <span className="flex items-center gap-1 text-sm text-green-500">
                   <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                  <span className="hidden sm:inline">{currentTime}</span>
+                  <span>{currentTime}</span>
                 </span>
                 <button
                   onClick={() => setIsMusicOpen(!isMusicOpen)}
@@ -94,18 +94,8 @@ const Navbar = ({ theme, toggleTheme }) => {
                 >
                   <Music size={18} className="text-gray-soft hover:text-white transition-colors" />
                 </button>
-                <button
-                  onClick={toggleTheme}
-                  className="p-2 hover:bg-dark-secondary rounded-lg transition-colors"
-                >
-                  {theme === 'dark' ? (
-                    <Sun size={18} className="text-gray-soft hover:text-white transition-colors" />
-                  ) : (
-                    <Moon size={18} className="text-gray-soft hover:text-white transition-colors" />
-                  )}
-                </button>
                 <a
-                  href="https://github.com/dhruval1907"
+                  href="https://github.com/afdhruval"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 hover:bg-dark-secondary rounded-lg transition-colors"
@@ -121,8 +111,6 @@ const Navbar = ({ theme, toggleTheme }) => {
       <CommandPalette
         isOpen={isCommandOpen}
         onClose={() => setIsCommandOpen(false)}
-        theme={theme}
-        toggleTheme={toggleTheme}
       />
       <MusicPlayer
         isOpen={isMusicOpen}

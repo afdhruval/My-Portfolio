@@ -19,10 +19,11 @@ const Introduction = () => {
               Dhruval Dalwadi
             </h1>
             <h2 className="text-2xl md:text-3xl text-gray-400 mb-6">
-              A coder by day, problem-solver by night!
+              Full-Stack Developer who builds with one goal  🐐 domination.
             </h2>
-            <p className="text-gray-soft text-lg mb-8 max-w-3xl leading-relaxed">
-              Front-End Developer focused on crafting scalable React.js applications with smooth animations and performance-optimized UI. Possess foundational backend knowledge, including building basic REST APIs, configuring Node.js/Express servers, and integrating MongoDB for data storage to support full-stack functionality
+            <p className="text-gray-soft text-lg mb-8 max-w-3xl leading-relaxed whitespace-pre-line">
+              I craft React.js interfaces that don’t just look good they move, respond, and feel premium
+              From idea to execution I build products that stand out.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button
@@ -35,7 +36,11 @@ const Introduction = () => {
               <Button
                 variant="outline"
                 icon={<Mail size={18} />}
-                onClick={() => window.location.href = "mailto:yourmail@gmail.com"}
+                onClick={() => {
+                  const subject = encodeURIComponent("hire me for modern development");
+                  const body = encodeURIComponent(`Hey Dhruval,\n\nI just explored your portfolio and honestly… this isn’t just development, this is art 🔥\n\nThe way you build smooth UI, animations, and full-stack systems shows you're not just coding — you're crafting experiences.\n\nI have something exciting in mind and I believe you're the perfect person to bring it to life. Let’s collaborate and create something that people won’t just use… they’ll remember.\n\nIf you're ready to build something crazy and impactful, let’s connect.\n\nWaiting for your reply 👀\n\n– Your Future Client`);
+                  window.location.href = `mailto:dhruvaldalwadi1907@gmail.com?subject=${subject}&body=${body}`;
+                }}
               >
                 Send Mail
               </Button>
