@@ -1,0 +1,449 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="148" viewBox="0 0 900 148">
+  <!-- Background -->
+  <rect width="900" height="148" rx="10" ry="10" fill="#111827"/>
+  <rect x="2" y="2" width="896" height="144" rx="9" ry="9" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+
+  <!-- Month Labels -->
+  <text font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#6b7280">
+    <tspan x="72" y="22">May</tspan>
+    <tspan x="138" y="22">Jun</tspan>
+    <tspan x="205" y="22">Jul</tspan>
+    <tspan x="272" y="22">Aug</tspan>
+    <tspan x="338" y="22">Sep</tspan>
+    <tspan x="405" y="22">Oct</tspan>
+    <tspan x="471" y="22">Nov</tspan>
+    <tspan x="537" y="22">Dec</tspan>
+    <tspan x="603" y="22">Jan</tspan>
+    <tspan x="670" y="22">Feb</tspan>
+    <tspan x="736" y="22">Mar</tspan>
+    <tspan x="803" y="22">Apr</tspan>
+  </text>
+
+  <!-- Day Labels -->
+  <text font-family="Segoe UI, system-ui, sans-serif" font-size="9" fill="#6b7280">
+    <tspan x="18" y="44">Mon</tspan>
+    <tspan x="18" y="60">Wed</tspan>
+    <tspan x="18" y="76">Fri</tspan>
+  </text>
+
+  <!-- Contribution grid: 53 weeks x 7 days -->
+  <!-- Colors: #1f2937=none, #064e3b=low, #065f46=med-low, #059669=med, #10b981=high, #34d399=highest -->
+
+  <!-- WEEK 1 (May) -->
+  <rect x="52" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="52" y="41" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="52" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="52" y="65" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="52" y="77" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="52" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="52" y="101" width="10" height="10" rx="2" fill="#1f2937"/>
+
+  <!-- WEEK 2 -->
+  <rect x="64" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="64" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="64" y="53" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="64" y="65" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="64" y="77" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="64" y="89" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="64" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <!-- WEEK 3 -->
+  <rect x="76" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="76" y="41" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="76" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="76" y="65" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="76" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="76" y="89" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="76" y="101" width="10" height="10" rx="2" fill="#1f2937"/>
+
+  <!-- WEEK 4 -->
+  <rect x="88" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="88" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="88" y="53" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="88" y="65" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="88" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="88" y="89" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="88" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <!-- WEEKS 5-8 (Jun) -->
+  <rect x="100" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="100" y="41" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="100" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="100" y="65" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="100" y="77" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="100" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="100" y="101" width="10" height="10" rx="2" fill="#1f2937"/>
+
+  <rect x="112" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="112" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="112" y="53" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="112" y="65" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="112" y="77" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="112" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="112" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <rect x="124" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="124" y="41" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="124" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="124" y="65" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="124" y="77" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="124" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="124" y="101" width="10" height="10" rx="2" fill="#1f2937"/>
+
+  <rect x="136" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="136" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="136" y="53" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="136" y="65" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="136" y="77" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="136" y="89" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="136" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <!-- WEEKS 9-12 (Jul) -->
+  <rect x="148" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="148" y="41" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="148" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="148" y="65" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="148" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="148" y="89" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="148" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <rect x="160" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="160" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="160" y="53" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="160" y="65" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="160" y="77" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="160" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="160" y="101" width="10" height="10" rx="2" fill="#065f46"/>
+
+  <rect x="172" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="172" y="41" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="172" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="172" y="65" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="172" y="77" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="172" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="172" y="101" width="10" height="10" rx="2" fill="#1f2937"/>
+
+  <rect x="184" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="184" y="41" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="184" y="53" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="184" y="65" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="184" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="184" y="89" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="184" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <!-- WEEKS 13-17 (Aug) -->
+  <rect x="196" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="196" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="196" y="53" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="196" y="65" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="196" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="196" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="196" y="101" width="10" height="10" rx="2" fill="#1f2937"/>
+
+  <rect x="208" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="208" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="208" y="53" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="208" y="65" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="208" y="77" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="208" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="208" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <rect x="220" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="220" y="41" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="220" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="220" y="65" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="220" y="77" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="220" y="89" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="220" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <rect x="232" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="232" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="232" y="53" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="232" y="65" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="232" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="232" y="89" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="232" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <!-- WEEKS 18-21 (Sep) -->
+  <rect x="244" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="244" y="41" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="244" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="244" y="65" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="244" y="77" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="244" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="244" y="101" width="10" height="10" rx="2" fill="#065f46"/>
+
+  <rect x="256" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="256" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="256" y="53" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="256" y="65" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="256" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="256" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="256" y="101" width="10" height="10" rx="2" fill="#1f2937"/>
+
+  <rect x="268" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="268" y="41" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="268" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="268" y="65" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="268" y="77" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="268" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="268" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <rect x="280" y="29" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="280" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="280" y="53" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="280" y="65" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="280" y="77" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="280" y="89" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="280" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <!-- WEEKS 22-25 (Oct) -->
+  <rect x="292" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="292" y="41" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="292" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="292" y="65" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="292" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="292" y="89" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="292" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <rect x="304" y="29" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="304" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="304" y="53" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="304" y="65" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="304" y="77" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="304" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="304" y="101" width="10" height="10" rx="2" fill="#065f46"/>
+
+  <rect x="316" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="316" y="41" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="316" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="316" y="65" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="316" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="316" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="316" y="101" width="10" height="10" rx="2" fill="#1f2937"/>
+
+  <rect x="328" y="29" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="328" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="328" y="53" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="328" y="65" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="328" y="77" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="328" y="89" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="328" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <!-- WEEKS 26-30 (Nov) -->
+  <rect x="340" y="29" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="340" y="41" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="340" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="340" y="65" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="340" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="340" y="89" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="340" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <rect x="352" y="29" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="352" y="41" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="352" y="53" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="352" y="65" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="352" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="352" y="89" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="352" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <rect x="364" y="29" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="364" y="41" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="364" y="53" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="364" y="65" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="364" y="77" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="364" y="89" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="364" y="101" width="10" height="10" rx="2" fill="#065f46"/>
+
+  <rect x="376" y="29" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="376" y="41" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="376" y="53" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="376" y="65" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="376" y="77" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="376" y="89" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="376" y="101" width="10" height="10" rx="2" fill="#064e3b"/>
+
+  <!-- WEEKS 31-35 (Dec) -->
+  <rect x="388" y="29" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="388" y="41" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="388" y="53" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="388" y="65" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="388" y="77" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="388" y="89" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="388" y="101" width="10" height="10" rx="2" fill="#065f46"/>
+
+  <rect x="400" y="29" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="400" y="41" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="400" y="53" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="400" y="65" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="400" y="77" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="400" y="89" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="400" y="101" width="10" height="10" rx="2" fill="#059669"/>
+
+  <rect x="412" y="29" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="412" y="41" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="412" y="53" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="412" y="65" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="412" y="77" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="412" y="89" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="412" y="101" width="10" height="10" rx="2" fill="#10b981"/>
+
+  <rect x="424" y="29" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="424" y="41" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="424" y="53" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="424" y="65" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="424" y="77" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="424" y="89" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="424" y="101" width="10" height="10" rx="2" fill="#059669"/>
+
+  <!-- WEEKS 36-40 (Jan) -->
+  <rect x="436" y="29" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="436" y="41" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="436" y="53" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="436" y="65" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="436" y="77" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="436" y="89" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="436" y="101" width="10" height="10" rx="2" fill="#10b981"/>
+
+  <rect x="448" y="29" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="448" y="41" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="448" y="53" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="448" y="65" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="448" y="77" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="448" y="89" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="448" y="101" width="10" height="10" rx="2" fill="#34d399"/>
+
+  <rect x="460" y="29" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="460" y="41" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="460" y="53" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="460" y="65" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="460" y="77" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="460" y="89" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="460" y="101" width="10" height="10" rx="2" fill="#10b981"/>
+
+  <rect x="472" y="29" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="472" y="41" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="472" y="53" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="472" y="65" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="472" y="77" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="472" y="89" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="472" y="101" width="10" height="10" rx="2" fill="#34d399"/>
+
+  <!-- Jan continued-->
+  <rect x="484" y="29" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="484" y="41" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="484" y="53" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="484" y="65" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="484" y="77" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="484" y="89" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="484" y="101" width="10" height="10" rx="2" fill="#059669"/>
+
+  <!-- WEEKS 41-44 (Feb) -->
+  <rect x="496" y="29" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="496" y="41" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="496" y="53" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="496" y="65" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="496" y="77" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="496" y="89" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="496" y="101" width="10" height="10" rx="2" fill="#34d399"/>
+
+  <rect x="508" y="29" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="508" y="41" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="508" y="53" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="508" y="65" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="508" y="77" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="508" y="89" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="508" y="101" width="10" height="10" rx="2" fill="#10b981"/>
+
+  <rect x="520" y="29" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="520" y="41" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="520" y="53" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="520" y="65" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="520" y="77" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="520" y="89" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="520" y="101" width="10" height="10" rx="2" fill="#34d399"/>
+
+  <rect x="532" y="29" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="532" y="41" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="532" y="53" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="532" y="65" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="532" y="77" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="532" y="89" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="532" y="101" width="10" height="10" rx="2" fill="#34d399"/>
+
+  <!-- WEEKS 45-48 (Mar) -->
+  <rect x="544" y="29" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="544" y="41" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="544" y="53" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="544" y="65" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="544" y="77" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="544" y="89" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="544" y="101" width="10" height="10" rx="2" fill="#34d399"/>
+
+  <rect x="556" y="29" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="556" y="41" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="556" y="53" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="556" y="65" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="556" y="77" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="556" y="89" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="556" y="101" width="10" height="10" rx="2" fill="#10b981"/>
+
+  <rect x="568" y="29" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="568" y="41" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="568" y="53" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="568" y="65" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="568" y="77" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="568" y="89" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="568" y="101" width="10" height="10" rx="2" fill="#10b981"/>
+
+  <rect x="580" y="29" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="580" y="41" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="580" y="53" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="580" y="65" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="580" y="77" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="580" y="89" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="580" y="101" width="10" height="10" rx="2" fill="#065f46"/>
+
+  <!-- WEEKS 49-52 (Apr) -->
+  <rect x="592" y="29" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="592" y="41" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="592" y="53" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="592" y="65" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="592" y="77" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="592" y="89" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="592" y="101" width="10" height="10" rx="2" fill="#059669"/>
+
+  <rect x="604" y="29" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="604" y="41" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="604" y="53" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="604" y="65" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="604" y="77" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="604" y="89" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="604" y="101" width="10" height="10" rx="2" fill="#059669"/>
+
+  <rect x="616" y="29" width="10" height="10" rx="2" fill="#34d399"/>
+  <rect x="616" y="41" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="616" y="53" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="616" y="65" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="616" y="77" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="616" y="89" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="616" y="101" width="10" height="10" rx="2" fill="#10b981"/>
+
+  <rect x="628" y="29" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="628" y="41" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="628" y="53" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="628" y="65" width="10" height="10" rx="2" fill="#10b981"/>
+  <rect x="628" y="77" width="10" height="10" rx="2" fill="#059669"/>
+
+  <!-- Bottom text -->
+  <text font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#6b7280" x="52" y="126">1164 contributions in the last year</text>
+
+  <!-- Legend -->
+  <text font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#6b7280" x="720" y="126">Less</text>
+  <rect x="748" y="116" width="10" height="10" rx="2" fill="#1f2937"/>
+  <rect x="760" y="116" width="10" height="10" rx="2" fill="#064e3b"/>
+  <rect x="772" y="116" width="10" height="10" rx="2" fill="#065f46"/>
+  <rect x="784" y="116" width="10" height="10" rx="2" fill="#059669"/>
+  <rect x="796" y="116" width="10" height="10" rx="2" fill="#34d399"/>
+  <text font-family="Segoe UI, system-ui, sans-serif" font-size="10" fill="#6b7280" x="810" y="126">More</text>
+</svg>
